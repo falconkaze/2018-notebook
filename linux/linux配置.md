@@ -23,6 +23,7 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 fcitx & exec startxfce4
 ```
+如果不行，运行fcitx-diagnose，按照其输出该装的装，该设的设。
 如果经常在vim下使用fcitx,可以在~/.vimrc中添加如下代码,在退出,进入插入模式的时候自动切换开关fcitx
 ```
 "##### auto fcitx  ###########
