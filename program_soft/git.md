@@ -33,3 +33,14 @@ git branch --set-upstream-to origin/branch_name
 ```
 git branch --uset-upstream
 ```
+### 远程代码与本地合并
+使用fetch
+```
+git fetch origin master:temp	将远程的master分支下载到本地新建的分支temp上，不切换
+git diff temp
+git merge temp
+```
+pull相当于fetch加merge。
+```
+git pull origin master
+```
