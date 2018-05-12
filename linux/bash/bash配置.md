@@ -3,7 +3,7 @@
 ## 字体颜色配置
 [linux终端界面的字体颜色设置](https://www.linuxidc.com/Linux/2015-06/118607.htm)
 [为archlinux终端ls不同类型文件设置不同显示颜色](https://www.cnblogs.com/lepeCoder/p/7844870.html)
-[]()
+[Arch Linux终端颜色配置--使用Gentoo bashrc](https://gitweb.gentoo.org/repo/gentoo.git/tree/app-shells/bash/files/bashrc)
 PS1是linux终端的一个环境变量，用来说明命令行提示符的设置。在终端中输入echo $PS1，就会输出当前PS1的配置。  
 linux默认的命令行提示信息为：[当前用户的账号名称@主机的一个名字 工作目录的最后一项]。  
 PS1的定义中常用的参数含义如下：
