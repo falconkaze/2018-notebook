@@ -1,5 +1,18 @@
-# git基本常识及命令
-## git简介
+#git基础
+## 建立git仓库
+#### 在工作目录中初始化新仓库
+要对现有的某个项目开始用git管理，只需要到项目所在目录
+```
+git init
+```
+初始化后，会在当前目录建立一个叫.git的目录，所有git需要的数据都存放在这个目录中。
+#### 从现有仓库克隆
+克隆仓库的命令格式为git clone [url]。
+```
+git clone git://github.com/schacon/grit.git
+git clone git://github.com/schacon/grit.git mygrit  clone到指定目录，仓库名也是自己指定的名字。
+```
+git支持多种数据传输协议。上面的是git://协议，也可以使用http(s)://或者user@server:/path.git表示的ssh传输协议。github支持https和ssh协议。
 #### git的提交代码方式
 git有两种提交代码的方式，https和git。git提交代码安全又高效，优先选择。将远程代码clone下来的时候，仓库名就有这两种选择。也可以手动修改。
 ```
