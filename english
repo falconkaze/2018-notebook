@@ -1,4 +1,4 @@
-idle			空闲的，无意义的			alias			别名
+idle			空闲的，无意义的		alias		别名
 invalid			无效的					annotation	注释
 schedule		时刻表，清单，预定计划，明细表		captcha		验证码
 unique			唯一的					expire		期满，终止
@@ -11,3 +11,61 @@ explicitly		明确地
 visibility		权限
 visible			可见的
 leak			泄露
+overview        概述，综述
+bind            绑定
+modifiers       修改器，编辑器，修饰语
+homerow         盲打
+wizard          男巫，向导程序
+offer           试图，提供
+regardless      无论，不管
+keyboard        键盘
+layout          布局，设计，安排
+decline         拒绝，下降，衰落
+base            以什么为基础
+refer           参考，涉及，提到
+display         显示，陈列，炫耀
+shift           移动，转移，变化
+compatibility   兼容性，配合度
+horizontal      水平的，地平线的
+vertically      垂直的
+terminology     术语，用辞
+sized           有大小的
+toggle          开关，触发器
+client          客户，客户端
+span            跨度，范围，持续
+aside from      除…以外
+handy           方便的，就近的，容易获得的
+correspond      通讯，符合，相应，一致
+additionally    此外，加上
+section         部分，地区，章节
+mechanism       机制，原理，途径
+shortcut        快捷键，快捷方式，热键
+modification    修改，改变
+bar             酒吧，条，小节
+status bar      状态栏，状态条，状态列
+indicate        表明，指出，象征
+paradigm        范例，范式
+approach        方法，途径，接近
+bound           范围，跳跃，限制，弹起
+dialog          对话，对话框
+tiling          瓷砖，盖瓦，铺瓷砖
+opposite        相反的，对立面
+violate         违反，侵犯，妨碍
+toolbar         工具栏
+hint            暗示，线索，示意
+appropriate     适当的，合适的，占用
+node            节点
+dock            码头，程序坞
+turn out        证明是，生产，关掉
+snap            猛咬，突然地
+block           块，截取，障碍物
+orientation     方向，定向，适应
+stack           堆，堆叠
+assume          夺取，假定，设想
+hierarchy       层级，等级制度
+implicitly      含蓄的，暗示的，盲从的
+fulfill         履行，实现，满足
+scenario        方案，情节，剧本
+
+
+

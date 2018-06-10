@@ -6,15 +6,21 @@
 播放音乐：netease-cloud-music
 练习打字：gtypist
 
-文本编辑GUI：gerit
-文本编辑：vim
+文本编辑GUI：gerit、leafpad  
+文本编辑：vim  
+office：libreoffice  
 
-编程语言：python
+编程语言：python、java、
 
 
-压缩软件
+压缩软件：unzip、unrar、p7zip
 
 截图工具：scrot
 图片查看：feh（也可用作壁纸）
 
-下载工具：wget
+终端模拟器：xfce4-terminal、urxvt
+下载工具：wget、aira2  
+版本控制：git  
+音量调节：alsa-utils  
+温度查看：  
+文件管理器：thunar  
