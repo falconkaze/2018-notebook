@@ -4,7 +4,6 @@
 
 谷歌浏览器：google-chrome
 播放音乐：netease-cloud-music
-练习打字：gtypist
 
 文本编辑GUI：gerit、leafpad  
 文本编辑：vim  
@@ -18,9 +17,14 @@ office：libreoffice
 截图工具：scrot
 图片查看：feh（也可用作壁纸）
 
-终端模拟器：xfce4-terminal、urxvt
+终端模拟器：xfce4-terminal、urxvt，guake
 下载工具：wget、aira2  
 版本控制：git  
 音量调节：alsa-utils  
 温度查看：  
 文件管理器：thunar  
+
+练习打字：gtypist
+打字游戏：typespeed
+
+终端游戏：nethack
