@@ -61,3 +61,16 @@ autocmd InsertEnter * call Fcitx2zh()
 ```
 
 ## 声音设置
+## 显示设置
+#### 调节屏幕亮度
+```
+echo 1000 > /sys/class/backlight/intel_backlight/brightness # 屏幕亮度调到1000
+cat  /sys/class/backlight/intel_backlight/max_brightness # 查看屏幕亮度最大值
+```
+# 显示设置
+#### 调节屏幕亮度
+```
+echo 1000 > /sys/class/backlight/intel_backlight/brightness # 屏幕亮度调到1000
+cat  /sys/class/backlight/intel_backlight/max_brightness # 查看屏幕亮度最大值
+```
+
