@@ -1,9 +1,11 @@
 # shell教程  
+
 【参考文献】
 【1】 [shell教程——菜鸟教程](http://www.runoob.com/linux/linux-shell-variable.html)
 
 shell是一个用c语言编写的程序，是用户使用linux的桥梁。shell既是一种命令语言，又是一种程序设计语言。shell脚本（shell scripts）是一种为shell编写的脚本程序。业界所说的shell通常是指shell脚本。  
 脚本语言的运行，两种方法：
+
 * 作为执行程序：
 ```
 chmod +x ./test.sh	#使脚本具有执行权限
@@ -16,7 +18,9 @@ chmod +x ./test.sh	#使脚本具有执行权限
 ```
 
 ## shell变量
+
 #### 定义变量
+
 注意：
 * 定义变量名的时候，变量名不加美元符号。
 * 变量名和等号之间不能有空格
@@ -28,6 +32,7 @@ chmod +x ./test.sh	#使脚本具有执行权限
 ```
 user_name="name"
 ```
+
 除了显示地直接赋值，也可以使用语句给变量赋值。
 ```
 for file in `ls /etc`
@@ -35,7 +40,9 @@ for file in `ls /etc`
 for file in $(ls /etc)
 ```
 上面语句会将/etc下目录的文件名循环出来
+
 #### 使用变量
+
 要使用变量的值，只要在变量名前面加美元符号即可。
 ```
 your_name="qinjx"

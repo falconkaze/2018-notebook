@@ -1,0 +1,26 @@
+# 压缩打包命令使用
+
+## tar命令
+
+-c — 创建一个新归档。
+
+-f — 当与 -c 选项一起使用时，创建的 tar 文件使用该选项指定的文件名；当与 -x 选项一起使用时，则解除该选项指定的归档。
+
+-t — 显示包括在 tar 文件中的文件列表。
+
+-v — 显示文件的归档进度。
+
+-x — 从归档中抽取文件。
+
+-z — 使用 gzip 来压缩 tar 文件。
+
+-j — 使用 bzip2 来压缩 tar 文件。
+
+示例：
+```shell
+tar -cvf filename.tar directory/file     打包文件
+tar -cvf filename.tar /home/mine/work /home/mine/school  可以打包多个文件
+tar -tvf filename.tar     列出tar文件的内容
+tar -xvf filename.tar     抽取tar文件的内容，不会删除tar文件
+```
+

@@ -19,7 +19,7 @@ alter table table_name modify column_name varchar(20);
 EXEC sp_rename 'table_name.column1','column2'
 ```
 ```
-alteir table table_name change old_name new_name type; 
+alter table table_name change old_name new_name type; 
 ```
 删除列
 ```

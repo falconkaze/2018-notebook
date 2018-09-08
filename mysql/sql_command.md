@@ -33,6 +33,11 @@ host:本地用户使用localhost,网络用户指定ip地址,%表示可以从任�
   ```mysql
   grant select,insert on databasename.tablename to 'username'@'host' with grant option;
   ```
+* 查看用户表
+```mysql
+SELECT User, Host, Password FROM mysql.user;
+SELECT DISTINCT User FROM mysql.user;
+```
 
 在ubuntu服务器下，MYSQL默认只允许本地登录，需要修改配置文件。
   ```
