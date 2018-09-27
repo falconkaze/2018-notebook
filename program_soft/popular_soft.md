@@ -1,5 +1,6 @@
 # linux下常用软件
 [archlinux常用软件](http://blog.chinaunix.net/uid-26495963-id-3309581.html)
+[超赞的Linux软件](https://alim0x.gitbooks.io/awesome-linux-software-zh_cn/content/)
 
 桌面:xfce4、i3窗口管理器（最好搭配compton，可以去除黑边框，设置透明，需要设置自启）
 
@@ -30,3 +31,4 @@ markdown编辑器：typora
 打字游戏：typespeed
 
 终端游戏：nethack
+ToDo软件：[Go for it](https://linux.cn/article-5337-1.html)
