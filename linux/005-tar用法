@@ -1,26 +1,43 @@
 # 压缩打包命令使用
 
 ## tar命令
+[tar 解压缩 压缩命令](https://www.cnblogs.com/wangluochong/p/7194037.html)
 
--c — 创建一个新归档。
+-c  创建一个新归档。
+-x  从归档中抽取文件。
+-t  查看内容。
+-r  向压缩归档文件末尾追加文件。
+-u  更新原压缩包中的文件。
 
--f — 当与 -c 选项一起使用时，创建的 tar 文件使用该选项指定的文件名；当与 -x 选项一起使用时，则解除该选项指定的归档。
+-f  当与 -c 选项一起使用时，创建的 tar 文件使用该选项指定的文件名；当与 -x 选项一起使用时，则解除该选项指定的归档。这个参数是最后一个参数，后面紧跟档案名。
+-v  显示过程（打包解包过程）。
 
--t — 显示包括在 tar 文件中的文件列表。
-
--v — 显示文件的归档进度。
-
--x — 从归档中抽取文件。
-
--z — 使用 gzip 来压缩 tar 文件。
-
--j — 使用 bzip2 来压缩 tar 文件。
+-z  文件属性为gzip。
+-j  文件属性为bz2。
+-Z  文件属性为compress。
 
 示例：
 ```shell
-tar -cvf filename.tar directory/file     打包文件
-tar -cvf filename.tar /home/mine/work /home/mine/school  可以打包多个文件
-tar -tvf filename.tar     列出tar文件的内容
-tar -xvf filename.tar     抽取tar文件的内容，不会删除tar文件
+tar -cf all.tar *.jpg     将所有的.jpg文件打包为all.tar
+tar -cf filename.tar /home/mine/work /home/mine/school  可以打包多个文件
+tar -rf all.tar *.gif     将所有的.gif文件添加到all.tar的包里。
+tar -uf all.tar logo.gif  更新all.tar中的logo.gif文件。
+tar -tf filename.tar     列出tar文件的内容
+tar -xf filename.tar     抽取tar文件的内容，不会删除tar文件
 ```
+
+## unzip命令
+
+## unrar命令
+
+总结
+1、*.tar 用 tar –xvf 解压
+2、*.gz 用 gzip -d或者gunzip 解压
+3、*.tar.gz和*.tgz 用 tar –xzf 解压
+4、*.bz2 用 bzip2 -d或者用bunzip2 解压
+5、*.tar.bz2用tar –xjf 解压
+6、*.Z 用 uncompress 解压
+7、*.tar.Z 用tar –xZf 解压
+8、*.rar 用 unrar e解压
+9、*.zip 用 unzip 解压
 
