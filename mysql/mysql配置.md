@@ -33,6 +33,13 @@
   sudo service mysql restart
   ```
 
-## mysql
+## mysql外网访问
+
+修改配置文件，重启服务
+
+```shell
+# 把bind-address改为0.0.0.0(不限制ip)，或者改为特定的ip
+sudo vim /etc/mysql/my.cnf
+```
 
 
