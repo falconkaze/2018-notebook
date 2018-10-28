@@ -1,16 +1,8 @@
 # tmux使用
 
+* [arch wiki](https://wiki.archlinux.org/index.php/Tmux)
 #
 prefix ？ 查看tmux预定义的快捷键列表，以及这些快捷键绑定的指令
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
 一、安装
 1、通过包管理器安装
