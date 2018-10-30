@@ -1,5 +1,9 @@
 # linux时间设置
 
+* [linux中关于时间的那些事](https://www.jianshu.com/p/3047beeea5b2)
+
+## timedatectl命令
+
 ## 查看时间
 
 ```
