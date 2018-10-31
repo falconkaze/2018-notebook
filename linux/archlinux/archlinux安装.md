@@ -1,28 +1,56 @@
+# archlinux安装
+
 ### 准备工作
+
 ##### 测试网络
+
 archlinux的安装离不开网络，测试网络：
+
 ```
 ping www.baidu.com
 ping 8.8.8.8
 ```
+
 ##### 测试系统时间
+
 查看系统时间
-```timedatectl status```
+```
+timedatectl status
+```
+
 如果时间不对，开启ntp服务（每隔11分钟进行一次网络对时）
-```timedatectl set-ntp true```
+
+```
+timedatectl set-ntp true
+```
+
 ##### 测试存储设备
+
 查看存储设备状态。在sda节点下，每一个带数字的节点（sda1）都是该物理硬盘分出来的区.
+
 ```
 #lsblk
 #fdisk -l
 ```
+
 ### 硬盘
+
 ##### 硬盘分区
+
 将sda分为一个mbr类型的分区
-```#cfdisk```
+
+```
+#cfdisk
+```
+
 进入交互界面，先new出分区，容量全分了，然后改成bootable（也就是把那个星号打上），然后把分区信息write进去，最后quit即可。
+
 或者使用fdisk命令分区
-```#fdisk /dev/sda```
+
+```
+#fdisk /dev/sda
+```
+
 创建分区表
 Command(m for help):输入o并按下enter
 然后创建分区：依次是 n、默认、默认、默认、确定分区大小（+15G）
@@ -31,32 +59,55 @@ Command(m for help):p
 向磁盘中写入这些改动
 Command(m for help):w
 **注意**：linux中的硬盘分区必须挂载才可以使用，包括U盘。
+
 ##### 格式化分区
+
 格式化成ext4文件系统
-```mkfs.ext4 /dev/sda1```
+
+```
+mkfs.ext4 /dev/sda1
+```
+
 格式化交换分区
-```# mkswap /dev/sdax```
+```
+# mkswap /dev/sdax
+```
+
 开始使用格式化分区
-```#swapon /dev/sdax```
+```
+#swapon /dev/sdax
+```
+
 ##### 挂载分区
+
 把根目录挂载在/mnt目录下
-```# mount /dev/sda1 /mnt```
-想创建目录再挂载
+```
+# mount /dev/sda1 /mnt
+```
+
+先创建目录再挂载
+
 ```
 mkdir /mnt/home
 mount /dev/sda2 /mnt/home
 ```
+
 ### 连接网络
+
 ##### 有线网络
+
 十一、网络设置
+
 # ip link
 找到网络设备（例如：enp0s3）
 # ip link set enp0s3 up
 # dhcpcd enp0s3
 # systemctl enable dhcpcd@enp0s3.service
 ##### 无线网络
+
 * 使用wifi-menu连接网络
 **注意**：镜像包系统内默认会包含wifi-menu相关包,但是下载的默认系统中不会包含,可以在配置系统的时候,使用wifi-menu命令查看所需包.如果忘记可以使用U盘挂载系统安装依赖包.
+
 ### 安装系统
 使用国内的镜像源可以获得更快的下载速度。修改镜像源需要编辑/etc/pacman.d/morrotlist文件。可以利用正则表达式grep工具来将中国的源取出来，首先切换到软件源所在目录：
 ```# cd /etc/pacman.d```
