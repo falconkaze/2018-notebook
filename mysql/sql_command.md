@@ -88,7 +88,7 @@ SELECT DISTINCT User FROM mysql.user;
   VALUES
   (1,'user001',0)
   ON DUPLICATE KEY UPDATE
-  (`name`='user001',`sex`=0)
+  `name`='user001',`sex`=0
   ```
 批量插入更新
   ```
