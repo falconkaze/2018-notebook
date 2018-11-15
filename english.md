@@ -240,3 +240,11 @@ synonym             代名词
 eliminate           排除，消除
 bullshit            废话，胡说八道
 disputes            争端，争议，纠纷
+boast               自夸
+blistering          起泡，猛烈的，极快的
+robust              强健的，健康的
+template            模板，样板
+render              渲染，着色，致使
+host                主持，宿主，主机
+host your site anywhere 在任何地方托管你的网站
+parenthesis         括号（复数形式为parentheses）
