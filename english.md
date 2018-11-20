@@ -249,3 +249,6 @@ host                主持，宿主，主机
 host your site anywhere 在任何地方托管你的网站
 parenthesis         括号（复数形式为parentheses）
 extern              外面的，外来的
+perform             执行，表演，完成
+suppress            抑制
+suffix              后缀，下标

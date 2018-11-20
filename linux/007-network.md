@@ -1,5 +1,16 @@
 # linux网络相关
 
+* [arch wiki](https://wiki.archlinux.org/index.php/Network_configuration_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+
+## 查看网络设备
+
+```shell
+ls /sys/class/net
+ifconfig
+ip link
+iw dev  # 查看无线设备
+```
+
 ##　查看DNS
 
 ```
