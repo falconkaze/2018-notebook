@@ -252,3 +252,5 @@ extern              外面的，外来的
 perform             执行，表演，完成
 suppress            抑制
 suffix              后缀，下标
+swap                交换
+capacity            容量
