@@ -254,3 +254,4 @@ suppress            抑制
 suffix              后缀，下标
 swap                交换
 capacity            容量
+macro               [计]宏
