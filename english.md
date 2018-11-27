@@ -257,3 +257,17 @@ capacity            容量
 macro               [计]宏
 dividend            [数]被除数，奖金，股息
 allocate            分配，拔出，配置
+ship                运送，船
+wrapper             包装材料，包装器
+regexp              正则表达式，表达式对象
+portability         [计]可移植性；轻便
+option              选项
+interpret           解释，说明，翻译
+brief               简短的，摘要，概要
+consult             请教，商议，咨询
+semantic            语义的，语义
+detect              察觉，发现，探测
+snippets            片段
+rank                排名，等级，军衔，队列
+trigger             触发
+stamp               邮票，印记，标志

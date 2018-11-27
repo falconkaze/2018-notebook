@@ -44,3 +44,5 @@
 * 打字游戏：typespeed
  
 * 终端游戏：nethack
+
+* 桌面通知：libnotify ,Dunst,  notification-daemon
