@@ -256,3 +256,4 @@ swap                交换
 capacity            容量
 macro               [计]宏
 dividend            [数]被除数，奖金，股息
+allocate            分配，拔出，配置
