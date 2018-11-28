@@ -16,6 +16,6 @@ double average(int num, ...){
 
 int main(){
   printf("Average of 2, 3, 4, 5 = %f\n", average(4, 2, 3, 4, 5));
-  printf("Average of 3, 4, 5 = %f\n", average(3, 3, 4, 5));
+  printf("Average of 3, 4, 5 = %f\n", average(4, 3, 4, 5));
   printf("Average of 3.1, 4.2, 5.3 = %f\n", average(3, 3.1, 4.2, 5.3));
 }
