@@ -271,3 +271,15 @@ snippets            片段
 rank                排名，等级，军衔，队列
 trigger             触发
 stamp               邮票，印记，标志
+tiled               平铺的
+hex                 十六进制，妖法
+ship                运送，船
+wrapper             包装材料，包装器
+robust              强健的，健壮的，健康的
+bandwidth           带宽
+qualifier           修饰语，限定词
+process             过程，进行，加工，处理
+persist             坚持，持久
+persistence         持久化
+ship                运送，船
+wrapper             包装材料，包装器

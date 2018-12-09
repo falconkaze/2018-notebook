@@ -2,6 +2,7 @@
 
 * [arch wiki](https://wiki.archlinux.org/index.php/Tmux)
 * [赖明星博客](http://mingxinglai.com/cn/2012/09/tmux/)
+* [Tmux 快速教程](http://blog.jeswang.org/blog/2013/06/24/tmux-kuai-su-jiao-cheng/)
 
 ## 介绍
 
@@ -24,12 +25,33 @@ tmux使用C/S模型构建，现在很多软件都是使用这种模式，比如v
 ## 常用命令
 
 ```shell
+# list
+tmux list-keys 列出所有快捷键和tmux命令
+tmux list-commands 列出所有tmux命令及参数
+tmux info 列出所有session，window，pane，运行的进程号等
+tmux source-file ~/.tmux.conf 加载指定的配置文件
+
+# session
 tmux new -s name    创建新的session并指定名字
 tmux new -s name -d 后台创建session
 tmux ls             列出所有session
-tmux list-session   列出说有session
+tmux list-sessions   列出所有session
 tmux attach -t name 连接指定的session
 tmux attach         连接上一个session
+tmux switch -t session_name 切换到指定的session。如果在tmux命令行使用，不需要前面的tmux。不推荐使用这个命令，如果需要切换session，可以使用快捷键prefix+w
+tmux detach (prefix+d) 离开当前session
+
+# window
+tmux list-windows   列出当前session的所有windows
+tmux select-window -t :0-9(或者name)
+tmux rename-window(prefix + ,)
+
+# pane
+tmux split-window (prefix + ")
+tmux split-window -h (prefix + %)
+tmux swap-pane -[UDLR] (prefix + { or }) 按方向交换pane
+tmux select-pane -[UDLR] 按方向选择pane
+tmux select-pane -t :.+  选择下一个数字的pane
 ```
 
 ## 常用快捷键
