@@ -283,3 +283,9 @@ persist             坚持，持久
 persistence         持久化
 ship                运送，船
 wrapper             包装材料，包装器
+daemon              守护进程
+integrate           整合，结合
+graphical           图形的
+tray                托盘，货盘
+applet              小程序，上下文
+demand              需求，要求
