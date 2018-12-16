@@ -289,3 +289,9 @@ graphical           图形的
 tray                托盘，货盘
 applet              小程序，上下文
 demand              需求，要求
+post                帖子，职位，张贴，公布，邮递
+arbitrary           [数]任意的，武断的，专制的
+led                 fan
+inappropriate       不恰当，不适当的
+appropriate         恰当的，合适
+from this moment on 从这一刻开始
