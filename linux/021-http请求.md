@@ -15,3 +15,13 @@ curl http://www.baidu.com
 ```shell
 
 ```
+
+## 一些技巧
+
+1. 在curl响应体的末尾自动添加换行符
+
+在`~/.curlrc`中添加
+
+```
+-w '\n'
+```

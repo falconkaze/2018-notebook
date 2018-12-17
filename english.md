@@ -295,3 +295,11 @@ led                 fan
 inappropriate       不恰当，不适当的
 appropriate         恰当的，合适
 from this moment on 从这一刻开始
+fatal               指明，致命伤
+transitive          传递，过渡的，可传递的
+facilitate          促进，使容易
+inherit             继承，承继
+mediation           调解，仲裁，调停
+explicitly          明确地，明白地
+declare             宣布，声明
+manipulation        操作，处理，篡改
