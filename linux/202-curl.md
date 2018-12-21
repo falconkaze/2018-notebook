@@ -1,6 +1,4 @@
-# linux发送http请求
-
-## curl命令
+# curl命令
 
 #### 实例
 
@@ -13,7 +11,11 @@ curl http://www.baidu.com
 * post请求
 
 ```shell
-
+curl -X POST \
+  -H "Accept:application/json" \
+  -H "Content-type:application/json" \
+  -d '{"key":"value"}' \
+  'http://www.test.com'
 ```
 
 ## 一些技巧
