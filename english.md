@@ -291,7 +291,6 @@ applet              小程序，上下文
 demand              需求，要求
 post                帖子，职位，张贴，公布，邮递
 arbitrary           [数]任意的，武断的，专制的
-led                 fan
 inappropriate       不恰当，不适当的
 appropriate         恰当的，合适
 from this moment on 从这一刻开始
@@ -303,3 +302,6 @@ mediation           调解，仲裁，调停
 explicitly          明确地，明白地
 declare             宣布，声明
 manipulation        操作，处理，篡改
+ambiguous           模糊不清的，引起歧义的
+implicit            隐式，含蓄的，暗示的
+dispose             处理，安排，处置
