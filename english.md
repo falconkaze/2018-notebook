@@ -290,7 +290,9 @@ tray                托盘，货盘
 applet              小程序，上下文
 demand              需求，要求
 post                帖子，职位，张贴，公布，邮递
+in the post         在这篇文章中
 arbitrary           [数]任意的，武断的，专制的
+led                 fan
 inappropriate       不恰当，不适当的
 appropriate         恰当的，合适
 from this moment on 从这一刻开始
@@ -302,6 +304,12 @@ mediation           调解，仲裁，调停
 explicitly          明确地，明白地
 declare             宣布，声明
 manipulation        操作，处理，篡改
-ambiguous           模糊不清的，引起歧义的
-implicit            隐式，含蓄的，暗示的
-dispose             处理，安排，处置
+tiresome            烦人的，无聊的
+every single time   每一次
+fed up              感到厌烦的，忍无可忍的
+look no further     不要再犹豫了
+exception           例外，异常
+except              除了
+mess                混乱；搞砸
+instinct            本能，直觉，天性
+culprit             罪魁祸首
