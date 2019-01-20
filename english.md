@@ -318,3 +318,14 @@ fetch               拿来，取得
 upgrade             [计]升级
 infinity            无穷，无限大
 splice              拼接
+ambiguous           模糊不清的，引起歧义的
+implicit            隐式，含蓄的，暗示的
+dispose             处理，安排，处置
+polymorphism        多态
+anonymity           匿名
+prompt              提示，迅速的
+algorithm           算法
+precision           精度，精密度，精确度
+conversion          转换，转化
+canonical           典型，典范
+torrent             奔流，洪流，种子
