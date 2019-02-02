@@ -313,3 +313,8 @@ except              除了
 mess                混乱；搞砸
 instinct            本能，直觉，天性
 culprit             罪魁祸首
+tarball             压缩包
+fetch               拿来，取得
+upgrade             [计]升级
+infinity            无穷，无限大
+splice              拼接
