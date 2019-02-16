@@ -158,6 +158,7 @@ complex            复杂的，复数
 module             组件，模块
 inheritance        继承，遗传
 raise exception    用户定义异常
+exception          例外
 incompatible       不可调节的，不兼容
 allocate           分配，指定
 interpreter        解释器，注释器
@@ -207,7 +208,7 @@ substitution       代替，替代，换人
 appendix           附录，阑尾，附件
 call...with        用…调用
 analogous          类似的，相似的，模拟的
-quote              引用，引述，报价
+quote              引用，引述，报价，引号
 synopsis           概要，大纲
 delimited          划定界限的，分隔符
 detect             察觉，检测，侦查
@@ -329,3 +330,60 @@ precision           精度，精密度，精确度
 conversion          转换，转化
 canonical           典型，典范
 torrent             奔流，洪流，种子
+favicon             网站图标，偏爱图标
+dummy               虚拟的，假的，仿制品
+demonstrate         证明，论证，展示，演示
+increment           自增
+atomic              原子的
+escaped             逃离，转义的
+escaped character   转义字符
+yield               屈服，放弃
+bog ... down over(in) ...  使...陷入...
+precise             精确的
+save that           除了，只是
+rudiment            基础，基本原理
+intentionally       有意地，刻意地
+concise             简洁的
+elegant             优雅的
+extrapolate         外推，推断
+supplement          补充
+hurdle              障碍
+leap over           越过
+comparatively       相对地
+subroutine          子程序
+enclose ... in ...  用...把...围起来
+escape sequence     转义字符
+in that sense       在这种意义上
+mechanism           机制，方法
+imperative          重要紧急的，迫切的，命令性
+overwhelm           压倒，充溢，压垮，征服
+interaction         相互作用，交互
+boundary            边界，界限
+infrastructure      基础设施
+compose             组成，构成，创作
+collaboration       合作，协作
+feasible            可行的，行得通的
+transparently       明亮地，显然地，易察觉地
+underlie            构成...的基础，作为...的原因
+codec               编码译码器
+adapter             适配器
+consistent          一致的，相符的
+notable             值得注意的，显著的
+utility             公共事业，实用，效用
+in charge of        负责，指导
+versus              对战，与...相对，与...对比
+unsound             不健全的，不稳妥的，有错误的，靠不住的
+dichotomy           二分法
+diagram             图表，简图
+evaluate            评价，估计，评估
+assemble            聚集，集合，收集
+resilient           有弹性的，能复原的
+latency             等待时间，潜伏，潜在因素
+assumption          假设，假定
+absorb              吸收，同化，理解，掌握
+hatch               孵化，舱门
+mutable             易变的，可变的
+concrete            确实的，具体的，实在的
+slightly            稍微，略微
+broad               宽阔的，广阔的
+precedence          优先，优先权
