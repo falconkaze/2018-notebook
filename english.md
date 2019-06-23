@@ -386,4 +386,23 @@ mutable             易变的，可变的
 concrete            确实的，具体的，实在的
 slightly            稍微，略微
 broad               宽阔的，广阔的
-precedence          优先，优先权
+permit              允许，准许
+manipulate          控制，操纵，影响
+roughly             大约，大致，差不多
+amortized           分期偿还
+amortized time      摊算时间，均摊时间(不等于平均时间)
+linear              线的，直线的，线状的
+beyond              除...之外，晚于，超出，在...较远的另一边
+reduce              减少
+reallocation        重新分配
+encapsulate         概括，压缩，封装
+accidental          意外的，偶然的
+cleanly             干净利落地，干净地
+arbitrary           任意的，武断的，专制的
+distinguish         区分，辨别，分清
+successor           接替者，继任者，后继的事物
+predecessor         前任，原先的东西，被替代的东西
+underflow           下溢，下漏
+overflow            溢出，漫出
+enqueue             入队，排队，入列
+dequeue             出队，离队，出列
