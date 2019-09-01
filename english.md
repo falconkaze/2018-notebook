@@ -115,10 +115,10 @@ proportion         比例，占比，部分
 radio              比例，比率
 constrain          驱使，强迫，束缚
 dimension          尺寸，维度，规格的
-specified          指定，规定的，详细说明的
 respect            尊重，方面，敬意，遵守
 with respect to    关于，至于
 analogous          类似的，相似的
+analogy            类比，比喻，类推
 determine          下决心，决定，确定
 deprecate          弃用，不赞成，废弃
 in favor of        有利于，支持，赞同
@@ -139,6 +139,8 @@ handing            管理，操纵，处理方法
 maintainable       可维持的，可维护的
 consistent         一致的，坚持的，一贯的
 specify            指定，知名，详细说明
+specified          指定，规定的，详细说明的
+specification      规格，说明书
 object-oriented    面向对象的
 oriented           导向的，以…为方向的，面向的
 scheme             策划，图谋，计划，设计
@@ -406,3 +408,40 @@ underflow           下溢，下漏
 overflow            溢出，漫出
 enqueue             入队，排队，入列
 dequeue             出队，离队，出列
+wildcard            通配符，未知数，未知因素
+sign up             （和...)签约，雇佣，报名
+sign in             通过签字取得入场权，签到
+engage              从事，经营
+dive into           探索，扎进（水里）
+in terms of         在...方面，从...角度，根据...来说
+skim                浏览
+logistical          后勤的，物流的，组织管理的
+right away          立刻，马上
+phase               阶段，时期，月相
+intimidating        吓人的，令人胆怯的
+by and large        总的来说，总体上
+mutually            相互地，彼此，共同地
+exclusive           专用的，独有的，排外的
+some other          另一个(类似another)
+encapsulate         压缩，封装
+correspond          符合，对应，一致
+canonicalizing      规范化
+mortem              事后分析，事后检验，验尸
+aside from          除...以外
+immutable           不可变的，不变的
+one-sided           单方面的，片面的，不公正的
+traversing          遍历，穿越，通过
+constant            常量，不变的
+disperse            分散，使散开，分散的
+bucket              桶，水桶
+exceed              超过，胜过
+entry               入口，进入，条目，登记
+product             [数]乘积
+approximately       大约，近似地，近于
+tradeoff            权衡，折衷
+look up             查找，检查
+take into account   考虑，重视，体谅
+sufficiently        充分地，足够地
+ameliorate          改善，减轻（痛苦等），改良
+bin                 箱子，垃圾箱，容器
+threshold           入口，门槛，临界值，阈值
