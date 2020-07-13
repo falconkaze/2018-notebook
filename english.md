@@ -205,6 +205,7 @@ mechanics          力学，机械学，结构
 mundane            世俗的，平凡的，世界的
 essential          基本的，必要的，要素
 invoke             调用，恳求，唤醒，引起
+revoke             撤回，取消
 prompt             迅速的，敏捷的，准时的，提示
 substitution       代替，替代，换人
 appendix           附录，阑尾，附件
@@ -228,13 +229,14 @@ excess             超过，过度，超额
 in excess of       超过，多于
 truncate           截断，缩短
 illustrate         举例，阐明，图解
+illustration       例证，插图
 collation          排序规则，校对，整理
 inventory          存货，库存，存货清单
 predicate          谓语，断言，断定（在数学中常用来表示一个类似于函数的东西，它接受一个参数值，并返回true或false）
 currency           货币，通货
 parallel           并行，平行线，类似的，对比
 retention          保留，扣留，保持
-alignment          对齐，队列，阵营 
+alignment          对齐，队列，阵营
 finiteness         有限性
 discrete           离散的
 definitely         无疑
@@ -378,7 +380,7 @@ unsound             不健全的，不稳妥的，有错误的，靠不住的
 dichotomy           二分法
 diagram             图表，简图
 evaluate            评价，估计，评估
-assemble            聚集，集合，收集
+assemble            聚集，集合，收集，组成
 resilient           有弹性的，能复原的
 latency             等待时间，潜伏，潜在因素
 assumption          假设，假定
@@ -445,3 +447,82 @@ sufficiently        充分地，足够地
 ameliorate          改善，减轻（痛苦等），改良
 bin                 箱子，垃圾箱，容器
 threshold           入口，门槛，临界值，阈值
+precedence          优先，优先权
+ceil                向正无穷取整，装天花板
+floor               向下取整，地板
+verbose             详细的，繁琐的
+cryptographic       密码，暗码
+notation            符号，乐谱，记号法
+specification       规格，规范
+consensus           共识，一致
+convention          约定
+denote              表示，指示
+ciphertext          密文
+cipher              密码
+elliptic            椭圆的
+curve               曲线
+appendix            附录
+line break          换行
+exactly             恰好，正是，精确地，正确地
+prevent sb. from doing  阻止某人做某事
+stub                存根
+dots                圆点
+immediate           立即的，直接的，最接近的
+parallel            平行线，对比，类似的，相同的
+elastic             有弹性的，灵活的，易伸缩的
+integrate           整合
+composable          可组合的
+specification       规范，规格
+extensively         广泛地，全面地
+despite             尽管
+potentially         可能
+divergent           发散，和...不同
+forgo               放弃
+defer               延期，推迟，听从
+decouple            解耦，分离
+bootstrapt          引导程序
+corresponding       相应的，一致的，通信的
+scalable            可扩展性
+phase               阶段
+fashion             时尚，方式
+gracefully          优雅地
+mission-critical    (对公司或活动等)极其重要的，必须的
+peruse              细读
+innovative          创新的，富有创意的
+inclination         意愿，性格
+particularly        特别地
+block               阻塞，块
+intricacy           错综复杂的事物，纷繁难懂的细节
+quirk               古怪举动，俏皮话，急转
+boilerplate         样板
+unadorned           未装饰的
+so-called           所谓的，号称...的
+derive              起源，得自
+resume              继续
+former              前者，前面的
+dormant             休眠的，暂停活动的
+moderate            中等的，一般的
+subtle              微妙，细微
+hats off to sb.     赞美并感谢某人做了有用的事
+portal              大门，入口
+skeleton            骨骼，骨架，基层的，骨干的
+confirm             证实，确定，批准
+delta               希腊字符δ，三角洲，差量，增量
+trash               丢弃，废弃，垃圾
+preceding           前面的，在前的
+confident           有信心的，有把握的
+substitute          代理，代替，代替的
+occurrence          事件，事情，发生的事，事情发生的事实或频繁
+exclamation point   感叹号
+exclamation         惊呼，激烈言语
+from here on        从现在开始
+retrieving          [计]检索过程，检索
+retrieve            取回，恢复，补偿，回忆，检索
+binsearch           [计]折半查找
+hands-on            [计]动手上机，实际操作
+closure             关闭，结束，[计]闭包
+inception           成立，出现
+de facto            事实上
+be a breeze         轻而易举
+have a dog in the fight 在这个问题上有个人利害关系(To have a personal stake in this issue)
+don't have a horse in this race

@@ -22,6 +22,12 @@
 * systemctl, ipconfig
 * 压测工具：ab
 
+# 网络相关
+
+* openconnect (archlinux) cisco vpn开源客户端
+* vpn-slice-git (arch-aur) vpnc-script的替代品，用于配置openconnect 路由（指定某些host通过vpn访问）
+* networkmanager-openconnect 通过networkManager集中配置管理openconnect的vpn。
+
 ## 日常使用
 * 终端模拟器：xfce4-terminal、urxvt，guake
 * 压缩软件：unzip、unrar、p7zip

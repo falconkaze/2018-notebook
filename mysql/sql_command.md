@@ -101,6 +101,20 @@ SELECT DISTINCT User FROM mysql.user;
   `name`=VALUES(`name`),
   `sex`=VALUES(`sex`)
   ```
+
+更新或忽略
+
+  ```
+  INSERT IGNORE INTO user
+  (`id`,`name`,`sex`)
+  VALUES
+  (1,'user001',0),
+  (2,'user002',1)
+  ON DUPLICATE KEY UPDATE
+  `name`=VALUES(`name`),
+  `sex`=VALUES(`sex`)
+  ```
+
 **注意**：
 * VALUES()函数只有在INSERT…UPDATE语句中有意义，其他时候会返回null。
 * 若多个索引都冲突，则只有一条记录被修改。示例如下：

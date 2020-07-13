@@ -18,6 +18,13 @@ curl -X POST \
   'http://www.test.com'
 ```
 
+## 命令参数
+
+```shell
+-v   打印出请求和返回的详细内容（包含header）
+-i --include 打印响应的详细信息
+```
+
 ## 一些技巧
 
 1. 在curl响应体的末尾自动添加换行符
